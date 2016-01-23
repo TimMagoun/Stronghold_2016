@@ -22,7 +22,7 @@ public class DriveTimeCommand extends Command {
 	}
 
 	protected void initialize() {
-		
+
 	}
 
 	protected void execute() {

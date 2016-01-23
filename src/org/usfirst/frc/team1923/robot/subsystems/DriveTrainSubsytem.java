@@ -40,7 +40,7 @@ public class DriveTrainSubsytem extends Subsystem{
 	public void cubicDrive(double left, double right){
 		left = Math.pow(left, SCALE_CONSTANT);
 		right = Math.pow(right, SCALE_CONSTANT);
-		
+		//Adjust the math model for driver's preferences
 		drive(left, right);
 	}
 	
